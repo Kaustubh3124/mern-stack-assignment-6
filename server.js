@@ -6,7 +6,7 @@ const PORT = 3000;
 
 
 const requestListener = async function (req, res) {
-   s
+   
     console.log(`Request received for: ${req.url}`);
 
     let filePath;      
