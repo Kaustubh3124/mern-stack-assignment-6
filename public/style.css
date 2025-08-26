@@ -4,27 +4,25 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f4f7f6; /* Light gray background */
-    color: #333; /* Dark gray text */
+    background-color: #f4f7f6;
+    color: #333; 
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensures footer sticks to bottom of viewport */
+    min-height: 100vh; 
 }
 
 .container {
-    max-width: 900px; /* Max width for content */
-    margin: 20px auto; /* Center content with vertical margin */
-    padding: 0 20px; /* Horizontal padding */
-    flex: 1; /* Allows main content area to grow and take available space */
+    max-width: 900px; 
+    margin: 20px auto;
+    padding: 0 20px; 
+    flex: 1; 
 }
-
-/* Header & Navigation Styles */
 header {
-    background-color: #2c3e50; /* Dark blue-gray */
+    background-color: #2c3e50; 
     color: white;
     padding: 15px 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 nav a {
@@ -32,33 +30,33 @@ nav a {
     text-decoration: none;
     padding: 0 15px;
     font-weight: bold;
-    transition: color 0.3s ease; /* Smooth color transition on hover */
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #007bff; /* Primary blue for hover effect on nav links */
+    color: #007bff; 
 }
 
-/* Section Common Styles */
+
 .hero, .content-section, .error-section {
     background-color: white;
     padding: 40px;
     margin-bottom: 30px;
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); /* More prominent shadow for sections */
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08); 
     text-align: center;
 }
 
 .error-section {
-    background-color: #ffebee; /* Light red for error page */
-    border: 1px solid #e57373; /* Red border */
-    color: #c62828; /* Dark red text */
+    background-color: #ffebee; 
+    border: 1px solid #e57373;
+    color: #c62828;
 }
 
 h1 {
-    font-size: 2.5em; /* Large heading */
+    font-size: 2.5em; 
     margin-bottom: 20px;
-    color: #34495e; /* Darker text for headings */
+    color: #34495e;
 }
 
 p {
@@ -66,9 +64,8 @@ p {
     margin-bottom: 15px;
 }
 
-/* Button Styles */
 button {
-    background-color: #007bff; /* Primary blue button */
+    background-color: #007bff; 
     color: white;
     padding: 12px 25px;
     border: none;
@@ -80,14 +77,14 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
-/* Form Styles (for contact page) */
+
 .contact-form {
     max-width: 500px;
     margin: 30px auto;
-    text-align: left; /* Align form elements to left within form */
+    text-align: left; 
 }
 
 .form-group {
@@ -95,7 +92,7 @@ button:hover {
 }
 
 .form-group label {
-    display: block; /* Label on its own line */
+    display: block; 
     margin-bottom: 8px;
     font-weight: bold;
 }
@@ -103,25 +100,24 @@ button:hover {
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea {
-    width: 100%; /* Full width of its container */
+    width: 100%; 
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    box-sizing: border-box; /* Include padding in the element's total width */
+    box-sizing: border-box;
 }
 
 .form-group textarea {
-    resize: vertical; /* Allow resizing only vertically */
+    resize: vertical;
     min-height: 100px;
 }
 
-/* Footer Styles */
 footer {
     background-color: #2c3e50;
     color: white;
     text-align: center;
     padding: 15px 0;
-    margin-top: auto; /* Pushes footer to the bottom of the page */
+    margin-top: auto;
 }
 
 footer p {
@@ -129,16 +125,15 @@ footer p {
     font-size: 0.9em;
 }
 
-/* Responsive Adjustments (using media queries) */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2em; /* Smaller heading on smaller screens */
+        font-size: 2em; 
     }
     nav a {
-        display: block; /* Stack nav links vertically */
+        display: block; 
         padding: 10px 0;
     }
     .hero, .content-section, .error-section {
-        padding: 30px 20px; /* Adjust section padding */
+        padding: 30px 20px; 
     }
 }
